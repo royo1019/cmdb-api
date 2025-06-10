@@ -1,0 +1,151 @@
+================================================================================
+Initializing CMDBOwnershipAnalyzer
+Instance URL: https://dev280836.service-now.com
+Username: admin
+================================================================================
+Starting ownership analysis for CI: b4fd7c8437201000deeabfc8bcbe5dc1
+Getting CI type for document key: b4fd7c8437201000deeabfc8bcbe5dc1
+Found CI type: cmdb_ci_computer
+Analyzing CI of type: cmdb_ci_computer
+Using field configuration for type: cmdb_ci_computer
+Critical fields: ['assigned_to', 'managed_by', 'supported_by', 'install_status', 'environment', 'category', 'subcategory', 'operational_status', 'maintenance_schedule', 'comments']
+Fetching audit records for CI: b4fd7c8437201000deeabfc8bcbe5dc1
+Found 164 audit records
+
+=== Ownership Analysis Results for cmdb_ci_computer ===
+
+1. Suresh Yekollu (suresh.yekollu)
+   Email: suresh.yekollu@example.com
+   Roles: catalog_admin, import_transformer, platform_ml_create, catalog_builder_editor, sn_templated_snip.template_snippet_admin, ml_labeler, sn_templated_snip.template_snippet_writer, personalize_dictionary, sn_employee.admin, import_scheduler, sn_templated_snip.template_snippet_admin, assessment_admin, survey_admin, sn_publications_recipients_list_user, sn_bm_client.benchmark_data_viewer, catalog_lookup_admin, ais_admin, sn_hr_sp.admin, nlu_editor, user_criteria_admin, nlu_admin, search_application_admin, sn_hr_sp.esc_admin, announcement_admin, taxonomy_admin, chat_survey_admin, image_admin, search_relevancy_model_admin, platform_ml_read, pa_data_collector, sn_templated_snip.template_snippet_reader, nlu_user, catalog, import_admin, admin, live_feed_admin, sp_admin, evam_admin, platform_ml_write, sn_nlu_workbench.nlu_feedback_admin, ml_admin, import_set_loader, catalog_template_editor, pa_viewer, chat_admin, sn_ace.ace_user
+   Role-based Score: 390
+   Field-based Score: 0
+   Critical Fields Modified: 
+   Total Score: 390
+   Total Changes: 1
+
+2. Joel Nardo (joel.nardo)
+   Email: joel.nardo@example.com
+   Roles: credential_admin, connection_admin, chat_analytics_admin, par_scheduler, mobile_analytics_viewer, pa_threshold_admin, pa_viewer, sn_pa_diagnostics.pa_diagnostic, pa_power_user, pa_admin, web_analytics_admin, platform_analytics_admin, agent_admin, view_changer, agent_security_admin, pa_data_collector, analytics_admin, analytics_viewer, chat_analytics_viewer, core_ui_analytics_viewer, portal_analytics_viewer, sdk_analytics_viewer, pa_contributor, dashboard_admin, now_experience_analytics_viewer, mobile_analytics_admin, core_ui_analytics_admin, analytics_filter_admin, pa_target_admin, viz_admin, portal_analytics_admin, now_experience_analytics_admin, pa_analyst, web_analytics_viewer, sdk_analytics_admin
+   Role-based Score: 285
+   Field-based Score: 15
+   Critical Fields Modified: assigned_to
+   Total Score: 300
+   Total Changes: 1
+
+3. Gisela Kosicki (gisela.kosicki)
+   Email: gisela.kosicki@example.com
+   Roles: pa_threshold_admin, pa_viewer, sn_pa_diagnostics.pa_diagnostic, web_analytics_admin, mobile_analytics_admin, core_ui_analytics_admin, chat_analytics_admin, par_scheduler, mobile_analytics_viewer, pa_power_user, pa_admin, pa_data_collector, analytics_admin, platform_analytics_admin, agent_admin, credential_admin, connection_admin, view_changer, agent_security_admin, analytics_filter_admin, pa_target_admin, viz_admin, portal_analytics_admin, now_experience_analytics_admin, pa_analyst, web_analytics_viewer, sdk_analytics_admin, analytics_viewer, chat_analytics_viewer, core_ui_analytics_viewer, portal_analytics_viewer, sdk_analytics_viewer, pa_contributor, dashboard_admin, now_experience_analytics_viewer
+   Role-based Score: 285
+   Field-based Score: 8
+   Critical Fields Modified: environment
+   Total Score: 293
+   Total Changes: 2
+
+4. Luke Wilson (luke.wilson)
+   Email: luke.wilson@example.com
+   Roles: catalog_editor, cmdb_ms_editor, cmdb_ms_user, sn_problem_read, data_manager_user, model_manager, sn_sttrm_condition_read, agent_workspace_user, workspace_user, uxframework_user, sn_change_read, asset, pa_threshold_admin, pa_viewer, sn_pa_diagnostics.pa_diagnostic, web_analytics_admin, mobile_analytics_admin, core_ui_analytics_admin, analytics_filter_admin, pa_target_admin, viz_admin, portal_analytics_admin, now_experience_analytics_admin, pa_analyst, web_analytics_viewer, sdk_analytics_admin, snc_platform_rest_api_access, dependency_views, contract_manager, category_manager, chat_analytics_admin, par_scheduler, mobile_analytics_viewer, pa_power_user, pa_admin, pa_data_collector, analytics_admin, analytics_viewer, chat_analytics_viewer, core_ui_analytics_viewer, portal_analytics_viewer, sdk_analytics_viewer, pa_contributor, dashboard_admin, now_experience_analytics_viewer, viz_creator, app_service_user, sn_problem_write, template_editor, cmdb_query_builder, sn_request_approver_read, financial_mgmt_user, platform_analytics_admin, cmdb_query_builder_read, inventory_user, sn_bm_client.benchmark_data_viewer, itil, sn_change_write, survey_reader, sn_sow.sow_user, sn_cmdb_user, sn_request_read, certification, sn_nb_action.next_best_action_user, sn_gd_guidance.guidance_user, sn_incident_write, template_read_global, sn_incident_read, view_changer, sn_cmdb_editor, sn_request_write, interaction_agent, email_composer, cmdb_read, canvas_user, task_editor, email_client_template_read, tracked_file_reader, user_criteria_admin
+   Role-based Score: 240
+   Field-based Score: 25
+   Critical Fields Modified: assigned_to, install_status
+   Total Score: 265
+   Total Changes: 5
+
+5. Joey Sedore (joey.sedore)
+   Email: joey.sedore@example.com
+   Roles: platform_analytics_admin, core_ui_analytics_admin, analytics_filter_admin, pa_target_admin, viz_admin, portal_analytics_admin, now_experience_analytics_admin, pa_analyst, web_analytics_viewer, sdk_analytics_admin, pa_data_collector, analytics_admin, analytics_viewer, chat_analytics_viewer, core_ui_analytics_viewer, portal_analytics_viewer, sdk_analytics_viewer, pa_contributor, dashboard_admin, now_experience_analytics_viewer, par_scheduler, mobile_analytics_viewer, pa_power_user, pa_admin, pa_viewer, sn_pa_diagnostics.pa_diagnostic, web_analytics_admin, mobile_analytics_admin, evam_admin, pa_threshold_admin, chat_analytics_admin
+   Role-based Score: 240
+   Field-based Score: 23
+   Critical Fields Modified: assigned_to, environment
+   Total Score: 263
+   Total Changes: 4
+
+================================================================================
+CMDB OWNERSHIP ANALYSIS SUMMARY
+================================================================================
+
+CI INFORMATION
+--------------------------------------------------
+CI ID: b4fd7c8437201000deeabfc8bcbe5dc1
+CI Type: cmdb_ci_computer
+Total Users Analyzed: 104
+
+TOP 5 POTENTIAL OWNERS
+--------------------------------------------------
+1. Suresh Yekollu (suresh.yekollu)
+   Email: suresh.yekollu@example.com
+   Total Score: 390
+   • Role Score: 390 (100.0%)
+   • Field Score: 0 (0.0%)
+
+2. Joel Nardo (joel.nardo)
+   Email: joel.nardo@example.com
+   Total Score: 300
+   • Role Score: 285 (95.0%)
+   • Field Score: 15 (5.0%)
+
+3. Gisela Kosicki (gisela.kosicki)
+   Email: gisela.kosicki@example.com
+   Total Score: 293
+   • Role Score: 285 (97.3%)
+   • Field Score: 8 (2.7%)
+
+4. Luke Wilson (luke.wilson)
+   Email: luke.wilson@example.com
+   Total Score: 265
+   • Role Score: 240 (90.6%)
+   • Field Score: 25 (9.4%)
+
+5. Joey Sedore (joey.sedore)
+   Email: joey.sedore@example.com
+   Total Score: 263
+   • Role Score: 240 (91.3%)
+   • Field Score: 23 (8.7%)
+
+================================================================================
+Most likely owner: Suresh Yekollu (Score: 390)
+================================================================================
+================================================================================
+CMDB OWNERSHIP ANALYSIS SUMMARY
+================================================================================
+
+CI INFORMATION
+--------------------------------------------------
+CI ID: b4fd7c8437201000deeabfc8bcbe5dc1
+CI Type: cmdb_ci_computer
+Total Users Analyzed: 104
+
+TOP 5 POTENTIAL OWNERS
+--------------------------------------------------
+1. Suresh Yekollu (suresh.yekollu)
+   Email: suresh.yekollu@example.com
+   Total Score: 390
+   • Role Score: 390 (100.0%)
+   • Field Score: 0 (0.0%)
+
+2. Joel Nardo (joel.nardo)
+   Email: joel.nardo@example.com
+   Total Score: 300
+   • Role Score: 285 (95.0%)
+   • Field Score: 15 (5.0%)
+
+3. Gisela Kosicki (gisela.kosicki)
+   Email: gisela.kosicki@example.com
+   Total Score: 293
+   • Role Score: 285 (97.3%)
+   • Field Score: 8 (2.7%)
+
+4. Luke Wilson (luke.wilson)
+   Email: luke.wilson@example.com
+   Total Score: 265
+   • Role Score: 240 (90.6%)
+   • Field Score: 25 (9.4%)
+
+5. Joey Sedore (joey.sedore)
+   Email: joey.sedore@example.com
+   Total Score: 263
+   • Role Score: 240 (91.3%)
+   • Field Score: 23 (8.7%)
+
+================================================================================
+Most likely owner: Suresh Yekollu (Score: 390)
+================================================================================
