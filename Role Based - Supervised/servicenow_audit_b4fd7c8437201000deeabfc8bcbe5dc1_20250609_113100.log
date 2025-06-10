@@ -1,0 +1,1733 @@
+Logging output to: servicenow_audit_b4fd7c8437201000deeabfc8bcbe5dc1_20250609_113100.log
+🔍 Testing role fetching functionality...
+    Fetching roles for user: 005d500b536073005e0addeeff7b12f4
+    Found 7 role assignments
+      Role found: personalize_dictionary
+      Role found: search_relevancy_model_admin
+      Role found: sn_publications_recipients_user
+      Role found: iar_admin
+      Role found: ais_admin
+      Role found: search_application_admin
+      Role found: evam_admin
+    Total unique roles: 7
+Fetching audit records for CI: b4fd7c8437201000deeabfc8bcbe5dc1
+Found 164 audit records
+    Fetching roles for user: 3282abf03710200044e0bfc8bcbe5d27
+    Found 19 role assignments
+      Role found: canvas_admin
+      Role found: cmdb_dedup_admin
+      Role found: app_service_user
+      Role found: cmdb_query_builder
+      Role found: data_manager_user
+      Role found: cmdb_ms_admin
+      Role found: canvas_user
+      Role found: dependency_views
+      Role found: cmdb_read
+      Role found: cmdb_payload_admin
+      Role found: cmdb_query_builder_read
+      Role found: sn_cmdb_user
+      Role found: data_manager_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_cmdb_editor
+      Role found: sn_cmdb_admin
+      Role found: task_editor
+      Role found: sn_appclient.app_client_user
+    Total unique roles: 19
+    Fetching roles for user: 4e826bf03710200044e0bfc8bcbe5d8a
+    Found 2 role assignments
+      Role found: antivirus_admin
+      Role found: sn_appclient.app_client_user
+    Total unique roles: 2
+    Fetching roles for user: 4e826bf03710200044e0bfc8bcbe5d57
+    Found 18 role assignments
+      Role found: sn_cmdb_admin
+      Role found: data_manager_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_cmdb_editor
+      Role found: canvas_admin
+      Role found: cmdb_dedup_admin
+      Role found: app_service_user
+      Role found: cmdb_query_builder
+      Role found: cmdb_read
+      Role found: cmdb_payload_admin
+      Role found: cmdb_query_builder_read
+      Role found: sn_cmdb_user
+      Role found: data_manager_user
+      Role found: cmdb_ms_admin
+      Role found: canvas_user
+      Role found: dependency_views
+      Role found: task_editor
+    Total unique roles: 18
+    Fetching roles for user: 46c4aeb7a9fe1981002bbd372644a37b
+    Found 46 role assignments
+      Role found: email_client_template_read
+      Role found: app_service_user
+      Role found: survey_reader
+      Role found: cmdb_ms_editor
+      Role found: sn_change_read
+      Role found: sn_cmdb_user
+      Role found: sn_problem_read
+      Role found: certification
+      Role found: canvas_user
+      Role found: service_admin
+      Role found: service_viewer
+      Role found: service_editor
+      Role found: template_editor
+      Role found: sn_cmdb_editor
+      Role found: workspace_user
+      Role found: interaction_agent
+      Role found: tracked_file_reader
+      Role found: sn_incident_write
+      Role found: task_editor
+      Role found: dependency_views
+      Role found: sn_incident_read
+      Role found: sn_sttrm_condition_read
+      Role found: sn_request_approver_read
+      Role found: service_author
+      Role found: itil
+      Role found: sn_change_write
+      Role found: cmdb_read
+      Role found: sn_problem_write
+      Role found: sn_sow.sow_user
+      Role found: cmdb_ms_user
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: sn_request_read
+      Role found: data_manager_user
+      Role found: sn_nb_action.next_best_action_user
+      Role found: viz_creator
+      Role found: notification_record_filter_admin
+      Role found: sn_request_write
+      Role found: uxframework_user
+      Role found: email_composer
+      Role found: sn_gd_guidance.guidance_user
+      Role found: snc_platform_rest_api_access
+      Role found: template_read_global
+      Role found: cmdb_query_builder_read
+      Role found: cmdb_query_builder
+      Role found: view_changer
+      Role found: agent_workspace_user
+    Total unique roles: 46
+    Fetching roles for user: 39826bf03710200044e0bfc8bcbe5d28
+    Found 10 role assignments
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: agent_admin
+      Role found: credential_admin
+      Role found: cmdb_read
+      Role found: service_viewer
+      Role found: service_author
+      Role found: service_admin
+      Role found: service_editor
+      Role found: connection_admin
+    Total unique roles: 10
+    Fetching roles for user: 4b82abf03710200044e0bfc8bcbe5d42
+    Found 7 role assignments
+      Role found: cmdb_ms_user
+      Role found: cmdb_ms_admin
+      Role found: cmdb_ms_editor
+      Role found: clone_profile_admin
+      Role found: sn_ace.ace_user
+      Role found: clone_admin
+      Role found: cmdb_read
+    Total unique roles: 7
+    Fetching roles for user: 0a826bf03710200044e0bfc8bcbe5d83
+    Found 2 role assignments
+      Role found: openapi_admin
+      Role found: antivirus_admin
+    Total unique roles: 2
+    Fetching roles for user: 3e82abf03710200044e0bfc8bcbe5d12
+    Found 6 role assignments
+      Role found: sn_templated_snip.template_snippet_admin
+      Role found: export_set_scheduler
+      Role found: personalize_dictionary
+      Role found: export_set_admin
+      Role found: sn_templated_snip.template_snippet_reader
+      Role found: sn_templated_snip.template_snippet_writer
+    Total unique roles: 6
+    Fetching roles for user: 22826bf03710200044e0bfc8bcbe5de3
+    Found 19 role assignments
+      Role found: data_manager_admin
+      Role found: cmdb_read
+      Role found: cmdb_payload_admin
+      Role found: notification_record_filter_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_cmdb_editor
+      Role found: canvas_admin
+      Role found: cmdb_dedup_admin
+      Role found: app_service_user
+      Role found: cmdb_query_builder
+      Role found: cmdb_query_builder_read
+      Role found: sn_cmdb_user
+      Role found: data_manager_user
+      Role found: cmdb_ms_admin
+      Role found: canvas_user
+      Role found: dependency_views
+      Role found: task_editor
+      Role found: sn_cmdb_admin
+    Total unique roles: 19
+    Fetching roles for user: 46d96f57a9fe198101947a9620895886
+    Found 79 role assignments
+      Role found: catalog_editor
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_problem_read
+      Role found: data_manager_user
+      Role found: model_manager
+      Role found: sn_sttrm_condition_read
+      Role found: agent_workspace_user
+      Role found: workspace_user
+      Role found: uxframework_user
+      Role found: sn_change_read
+      Role found: asset
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: snc_platform_rest_api_access
+      Role found: dependency_views
+      Role found: contract_manager
+      Role found: category_manager
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: viz_creator
+      Role found: app_service_user
+      Role found: sn_problem_write
+      Role found: template_editor
+      Role found: cmdb_query_builder
+      Role found: sn_request_approver_read
+      Role found: financial_mgmt_user
+      Role found: platform_analytics_admin
+      Role found: cmdb_query_builder_read
+      Role found: inventory_user
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: itil
+      Role found: sn_change_write
+      Role found: survey_reader
+      Role found: sn_sow.sow_user
+      Role found: sn_cmdb_user
+      Role found: sn_request_read
+      Role found: certification
+      Role found: sn_nb_action.next_best_action_user
+      Role found: sn_gd_guidance.guidance_user
+      Role found: sn_incident_write
+      Role found: template_read_global
+      Role found: sn_incident_read
+      Role found: view_changer
+      Role found: sn_cmdb_editor
+      Role found: sn_request_write
+      Role found: interaction_agent
+      Role found: email_composer
+      Role found: cmdb_read
+      Role found: canvas_user
+      Role found: task_editor
+      Role found: email_client_template_read
+      Role found: tracked_file_reader
+      Role found: user_criteria_admin
+    Total unique roles: 79
+    Fetching roles for user: 38cb3f173b331300ad3cc9bb34efc4d6
+    Found 45 role assignments
+      Role found: sn_sow.sow_user
+      Role found: cmdb_ms_editor
+      Role found: sn_change_read
+      Role found: sn_request_read
+      Role found: sn_problem_read
+      Role found: interaction_agent
+      Role found: canvas_user
+      Role found: sn_incident_write
+      Role found: email_client_template_read
+      Role found: app_service_user
+      Role found: analytics_task_admin
+      Role found: problem_coordinator
+      Role found: sn_nb_action.next_best_action_user
+      Role found: tracked_file_reader
+      Role found: sn_change_write
+      Role found: task_editor
+      Role found: dependency_views
+      Role found: sn_incident_read
+      Role found: sn_sttrm_condition_read
+      Role found: sn_request_approver_read
+      Role found: sn_request_write
+      Role found: workspace_user
+      Role found: user_admin
+      Role found: view_changer
+      Role found: sn_cmdb_user
+      Role found: cmdb_ms_user
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: itil
+      Role found: data_manager_user
+      Role found: email_composer
+      Role found: viz_creator
+      Role found: template_read_global
+      Role found: cmdb_read
+      Role found: sn_problem_write
+      Role found: problem_task_analyst
+      Role found: sn_gd_guidance.guidance_user
+      Role found: snc_platform_rest_api_access
+      Role found: survey_reader
+      Role found: cmdb_query_builder_read
+      Role found: cmdb_query_builder
+      Role found: sn_cmdb_editor
+      Role found: agent_workspace_user
+      Role found: certification
+      Role found: uxframework_user
+      Role found: template_editor
+    Total unique roles: 45
+    Fetching roles for user: 16826bf03710200044e0bfc8bcbe5da1
+    Found 2 role assignments
+      Role found: analytics_task_admin
+      Role found: sn_publications_recipients_user
+    Total unique roles: 2
+    Fetching roles for user: 0e826bf03710200044e0bfc8bcbe5d97
+    Found 5 role assignments
+      Role found: decision_table_admin
+      Role found: openapi_admin
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: personalize_decision_table_input
+    Total unique roles: 5
+    Fetching roles for user: 1a826bf03710200044e0bfc8bcbe5da3
+    Found 7 role assignments
+      Role found: iar_admin
+      Role found: evam_admin
+      Role found: search_relevancy_model_admin
+      Role found: ais_admin
+      Role found: search_application_admin
+      Role found: personalize_dictionary
+      Role found: user_criteria_admin
+    Total unique roles: 7
+    Fetching roles for user: 47de9c73c61122930033f6521d1bb785
+    Found 31 role assignments
+      Role found: password_reset_credential_manager
+      Role found: catalog_builder_editor
+      Role found: workflow_admin
+      Role found: cmdb_query_builder
+      Role found: canvas_user
+      Role found: workflow_creator
+      Role found: script_include_admin
+      Role found: ais_admin
+      Role found: search_application_admin
+      Role found: personalize_dictionary
+      Role found: password_reset_service_desk
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: evam_admin
+      Role found: search_relevancy_model_admin
+      Role found: itom_admin
+      Role found: workflow_publisher
+      Role found: catalog_editor
+      Role found: contract_manager
+      Role found: catalog
+      Role found: financial_mgmt_user
+      Role found: catalog_template_editor
+      Role found: iar_admin
+      Role found: catalog_admin
+      Role found: catalog_lookup_admin
+      Role found: cmdb_read
+      Role found: asset
+      Role found: inventory_user
+      Role found: user_criteria_admin
+      Role found: model_manager
+      Role found: category_manager
+    Total unique roles: 30
+    Fetching roles for user: 0a826bf03710200044e0bfc8bcbe5d8c
+    Found 5 role assignments
+      Role found: decision_table_admin
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: openapi_admin
+      Role found: personalize_decision_table_input
+    Total unique roles: 5
+    Fetching roles for user: 46c9e158a9fe198101d44d0d22cb640d
+    Found 4 role assignments
+      Role found: sn_ace.ace_user
+      Role found: clone_profile_admin
+      Role found: evam_admin
+      Role found: clone_admin
+    Total unique roles: 4
+    Fetching roles for user: 46826bf03710200044e0bfc8bcbe5d98
+    Found 4 role assignments
+      Role found: sn_templated_snip.template_snippet_admin
+      Role found: user_criteria_admin
+      Role found: sn_templated_snip.template_snippet_reader
+      Role found: sn_templated_snip.template_snippet_writer
+    Total unique roles: 4
+    Fetching roles for user: 12826bf03710200044e0bfc8bcbe5d9f
+    Found 32 role assignments
+      Role found: platform_analytics_admin
+      Role found: sn_nowassist_admin.nsa_admin
+      Role found: sn_ace.ace_user
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+    Total unique roles: 32
+    Fetching roles for user: 06826bf03710200044e0bfc8bcbe5d6f
+    Found 4 role assignments
+      Role found: clone_profile_admin
+      Role found: sn_ace.ace_user
+      Role found: notification_record_filter_admin
+      Role found: clone_admin
+    Total unique roles: 4
+    Fetching roles for user: 31826bf03710200044e0bfc8bcbe5d24
+    Found 8 role assignments
+      Role found: sla_admin
+      Role found: decision_table_admin
+      Role found: personalize_decision_table_input
+      Role found: sn_diagram_builder.db_read
+      Role found: flow_operator
+      Role found: fd_read_operations
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+    Total unique roles: 8
+    Fetching roles for user: 4782abf03710200044e0bfc8bcbe5d40
+    Found 6 role assignments
+      Role found: antivirus_admin
+      Role found: service_author
+      Role found: service_editor
+      Role found: cmdb_read
+      Role found: service_viewer
+      Role found: service_admin
+    Total unique roles: 6
+    Fetching roles for user: 3883f4c0730123002728660c4cf6a754
+    Found 46 role assignments
+      Role found: now_experience_analytics_admin
+      Role found: sn_nb_action.next_best_action_user
+      Role found: tracked_file_reader
+      Role found: template_read_global
+      Role found: task_editor
+      Role found: sn_problem_write
+      Role found: view_changer
+      Role found: sn_sttrm_condition_read
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: sn_request_write
+      Role found: workspace_user
+      Role found: now_experience_analytics_viewer
+      Role found: cmdb_ms_admin
+      Role found: sn_cmdb_user
+      Role found: cmdb_ms_user
+      Role found: template_editor
+      Role found: itil
+      Role found: data_manager_user
+      Role found: problem_task_analyst
+      Role found: email_composer
+      Role found: viz_creator
+      Role found: survey_reader
+      Role found: cmdb_read
+      Role found: cmdb_query_builder
+      Role found: problem_coordinator
+      Role found: sn_incident_write
+      Role found: sn_gd_guidance.guidance_user
+      Role found: snc_platform_rest_api_access
+      Role found: app_service_user
+      Role found: sn_sow.sow_user
+      Role found: cmdb_query_builder_read
+      Role found: sn_change_read
+      Role found: sn_cmdb_editor
+      Role found: agent_workspace_user
+      Role found: certification
+      Role found: uxframework_user
+      Role found: sn_request_read
+      Role found: sn_problem_read
+      Role found: interaction_agent
+      Role found: canvas_user
+      Role found: sn_change_write
+      Role found: email_client_template_read
+      Role found: dependency_views
+      Role found: sn_incident_read
+      Role found: cmdb_ms_editor
+      Role found: sn_request_approver_read
+    Total unique roles: 46
+    Fetching roles for user: 46d77b47a9fe1981007c0b3faff3edf8
+    Found 9 role assignments
+      Role found: pa_contributor
+      Role found: pa_viewer
+      Role found: analytics_filter_admin
+      Role found: viz_admin
+      Role found: pa_analyst
+      Role found: pa_threshold_admin
+      Role found: pa_target_admin
+      Role found: pa_power_user
+      Role found: user_admin
+    Total unique roles: 9
+    Fetching roles for user: 0782abf03710200044e0bfc8bcbe5d3b
+    Found 7 role assignments
+      Role found: openapi_admin
+      Role found: iar_admin
+      Role found: evam_admin
+      Role found: search_relevancy_model_admin
+      Role found: ais_admin
+      Role found: search_application_admin
+      Role found: personalize_dictionary
+    Total unique roles: 7
+    Fetching roles for user: 46c32549a9fe198101a84f3c2036e26b
+    Found 5 role assignments
+      Role found: sn_udc.basic_read
+      Role found: decision_table_admin
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: personalize_decision_table_input
+      Role found: service_api_admin
+    Total unique roles: 5
+    Fetching roles for user: 46826bf03710200044e0bfc8bcbe5d62
+    Found 8 role assignments
+      Role found: sla_admin
+      Role found: sn_ace.ace_user
+      Role found: sn_diagram_builder.db_read
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: flow_operator
+      Role found: fd_read_operations
+      Role found: sn_nowassist_admin.nsa_admin
+    Total unique roles: 8
+    Fetching roles for user: 1a826bf03710200044e0bfc8bcbe5dd0
+    Found 31 role assignments
+      Role found: platform_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: evam_admin
+      Role found: pa_threshold_admin
+      Role found: chat_analytics_admin
+    Total unique roles: 31
+    Fetching roles for user: 0e826bf03710200044e0bfc8bcbe5d73
+    Found 2 role assignments
+      Role found: antivirus_admin
+      Role found: analytics_task_admin
+    Total unique roles: 2
+    Fetching roles for user: 35826bf03710200044e0bfc8bcbe5d38
+    Found 2 role assignments
+      Role found: notification_record_filter_admin
+      Role found: antivirus_admin
+    Total unique roles: 2
+    Fetching roles for user: 46d6a72ea9fe1981019699dd1000f1fa
+    Found 2 role assignments
+      Role found: service_api_admin
+      Role found: sn_publications_recipients_user
+    Total unique roles: 2
+    Fetching roles for user: 46bac3d6a9fe1981005f299d979b8869
+    Found 11 role assignments
+      Role found: connection_admin
+      Role found: sla_admin
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: agent_admin
+      Role found: credential_admin
+      Role found: sn_diagram_builder.db_read
+      Role found: flow_operator
+      Role found: fd_read_operations
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+    Total unique roles: 11
+    Fetching roles for user: 3682abf03710200044e0bfc8bcbe5d0e
+    Found 2 role assignments
+      Role found: openapi_admin
+      Role found: antivirus_admin
+    Total unique roles: 2
+    Fetching roles for user: 338fb0689965221008ddd351c8920aba
+    Found 34 role assignments
+      Role found: platform_analytics_admin
+      Role found: cmdb_ms_user
+      Role found: now_experience_analytics_viewer
+      Role found: cmdb_ms_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: cmdb_read
+      Role found: cmdb_ms_editor
+    Total unique roles: 34
+    Fetching roles for user: 3e82abf03710200044e0bfc8bcbe5d2d
+    Found 1 role assignments
+      Role found: evam_admin
+    Total unique roles: 1
+    Fetching roles for user: 3a82abf03710200044e0bfc8bcbe5d2b
+    Found 5 role assignments
+      Role found: cmdb_ms_admin
+      Role found: cmdb_read
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: user_criteria_admin
+    Total unique roles: 5
+    Fetching roles for user: 0b82abf03710200044e0bfc8bcbe5d3d
+    Found 2 role assignments
+      Role found: service_api_admin
+      Role found: evam_admin
+    Total unique roles: 2
+    Fetching roles for user: 4a826bf03710200044e0bfc8bcbe5d3f
+    Found 2 role assignments
+      Role found: user_admin
+      Role found: service_api_admin
+    Total unique roles: 2
+    Fetching roles for user: 1e826bf03710200044e0bfc8bcbe5dd2
+    Found 8 role assignments
+      Role found: export_set_admin
+      Role found: agent_security_admin
+      Role found: credential_admin
+      Role found: agent_admin
+      Role found: view_changer
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+      Role found: connection_admin
+    Total unique roles: 8
+    Fetching roles for user: 39826bf03710200044e0bfc8bcbe5d3a
+    Found 5 role assignments
+      Role found: sn_ace.ace_user
+      Role found: sn_templated_snip.template_snippet_writer
+      Role found: sn_templated_snip.template_snippet_reader
+      Role found: sn_nowassist_admin.nsa_admin
+      Role found: sn_templated_snip.template_snippet_admin
+    Total unique roles: 5
+    Fetching roles for user: 42826bf03710200044e0bfc8bcbe5d69
+    Found 7 role assignments
+      Role found: user_criteria_admin
+      Role found: iar_admin
+      Role found: evam_admin
+      Role found: search_relevancy_model_admin
+      Role found: ais_admin
+      Role found: search_application_admin
+      Role found: personalize_dictionary
+    Total unique roles: 7
+    Fetching roles for user: 35826bf03710200044e0bfc8bcbe5d1d
+    Found 4 role assignments
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+      Role found: user_criteria_admin
+      Role found: export_set_admin
+    Total unique roles: 4
+    Fetching roles for user: 0a826bf03710200044e0bfc8bcbe5d68
+    Found 19 role assignments
+      Role found: notification_record_filter_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_cmdb_editor
+      Role found: canvas_admin
+      Role found: cmdb_dedup_admin
+      Role found: app_service_user
+      Role found: cmdb_query_builder
+      Role found: sn_cmdb_admin
+      Role found: data_manager_admin
+      Role found: cmdb_query_builder_read
+      Role found: sn_cmdb_user
+      Role found: data_manager_user
+      Role found: cmdb_ms_admin
+      Role found: canvas_user
+      Role found: dependency_views
+      Role found: task_editor
+      Role found: cmdb_read
+      Role found: cmdb_payload_admin
+    Total unique roles: 19
+    Fetching roles for user: 12826bf03710200044e0bfc8bcbe5db1
+    Found 6 role assignments
+      Role found: credential_admin
+      Role found: agent_admin
+      Role found: agent_security_admin
+      Role found: view_changer
+      Role found: connection_admin
+      Role found: openapi_admin
+    Total unique roles: 6
+    Fetching roles for user: 39826bf03710200044e0bfc8bcbe5d1f
+    Found 7 role assignments
+      Role found: fd_read_operations
+      Role found: sla_admin
+      Role found: sn_udc.basic_read
+      Role found: openapi_admin
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_diagram_builder.db_read
+      Role found: flow_operator
+    Total unique roles: 7
+    Fetching roles for user: 46d1656aa9fe19810123a47c98f2d82f
+    Found 6 role assignments
+      Role found: fd_read_operations
+      Role found: sla_admin
+      Role found: sn_diagram_builder.db_read
+      Role found: flow_operator
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+    Total unique roles: 6
+    Fetching roles for user: 3d826bf03710200044e0bfc8bcbe5d21
+    Found 32 role assignments
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: platform_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: sn_ace.ace_user
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_nowassist_admin.nsa_admin
+    Total unique roles: 32
+    Fetching roles for user: 3a82abf03710200044e0bfc8bcbe5d0b
+    Found 6 role assignments
+      Role found: cmdb_read
+      Role found: service_viewer
+      Role found: service_author
+      Role found: service_editor
+      Role found: openapi_admin
+      Role found: service_admin
+    Total unique roles: 6
+    Fetching roles for user: 46ca0887a9fe19810191e08e51927ebf
+    Found 4 role assignments
+      Role found: cmdb_read
+      Role found: service_viewer
+      Role found: sn_appclient.app_client_user
+      Role found: antivirus_admin
+    Total unique roles: 4
+    Fetching roles for user: 46d413b2a9fe198101a7f9f0f493a9a7
+    Found 20 role assignments
+      Role found: sn_cmdb_admin
+      Role found: credential_admin
+      Role found: user_criteria_admin
+      Role found: cmdb_read
+      Role found: cmdb_payload_admin
+      Role found: cmdb_query_builder_read
+      Role found: sn_cmdb_user
+      Role found: data_manager_user
+      Role found: cmdb_ms_admin
+      Role found: canvas_user
+      Role found: dependency_views
+      Role found: task_editor
+      Role found: data_manager_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_cmdb_editor
+      Role found: canvas_admin
+      Role found: cmdb_dedup_admin
+      Role found: app_service_user
+      Role found: cmdb_query_builder
+    Total unique roles: 20
+    Fetching roles for user: 02826bf03710200044e0bfc8bcbe5d5e
+    Found 4 role assignments
+      Role found: antivirus_admin
+      Role found: export_set_admin
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+    Total unique roles: 4
+    Fetching roles for user: 12826bf03710200044e0bfc8bcbe5dba
+    Found 35 role assignments
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: platform_analytics_admin
+      Role found: agent_admin
+      Role found: credential_admin
+      Role found: connection_admin
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+    Total unique roles: 35
+    Fetching roles for user: 2a826bf03710200044e0bfc8bcbe5dde
+    Found 6 role assignments
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: agent_admin
+      Role found: credential_admin
+      Role found: antivirus_admin
+      Role found: connection_admin
+    Total unique roles: 6
+    Fetching roles for user: 46d80e5fa9fe198101490eab4fe5cbb0
+    Found 22 role assignments
+      Role found: decision_table_admin
+      Role found: cmdb_read
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: personalize_decision_table_input
+      Role found: sn_udc.basic_read
+      Role found: sn_cmdb_admin
+      Role found: cmdb_payload_admin
+      Role found: cmdb_query_builder_read
+      Role found: sn_cmdb_user
+      Role found: data_manager_user
+      Role found: cmdb_ms_admin
+      Role found: canvas_user
+      Role found: dependency_views
+      Role found: task_editor
+      Role found: data_manager_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_cmdb_editor
+      Role found: canvas_admin
+      Role found: cmdb_dedup_admin
+      Role found: app_service_user
+      Role found: cmdb_query_builder
+    Total unique roles: 22
+    Fetching roles for user: 46d4a69ba9fe1981001af9616bf01185
+    Found 32 role assignments
+      Role found: sn_nowassist_admin.nsa_admin
+      Role found: sn_ace.ace_user
+      Role found: now_experience_analytics_viewer
+      Role found: platform_analytics_admin
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+    Total unique roles: 32
+    Fetching roles for user: 1e826bf03710200044e0bfc8bcbe5dae
+    Found 5 role assignments
+      Role found: cmdb_ms_admin
+      Role found: cmdb_ms_user
+      Role found: cmdb_read
+      Role found: cmdb_ms_editor
+      Role found: sn_publications_recipients_user
+    Total unique roles: 5
+    Fetching roles for user: 42826bf03710200044e0bfc8bcbe5d44
+    Found 31 role assignments
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: user_admin
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: platform_analytics_admin
+    Total unique roles: 31
+    Fetching roles for user: 3e82abf03710200044e0bfc8bcbe5d24
+    Found 2 role assignments
+      Role found: user_admin
+      Role found: antivirus_admin
+    Total unique roles: 2
+    Fetching roles for user: 36826bf03710200044e0bfc8bcbe5df7
+    Found 35 role assignments
+      Role found: credential_admin
+      Role found: connection_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: web_analytics_admin
+      Role found: platform_analytics_admin
+      Role found: agent_admin
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+    Total unique roles: 35
+    Fetching roles for user: 46826bf03710200044e0bfc8bcbe5d7d
+    Found 3 role assignments
+      Role found: service_api_admin
+      Role found: approver_user
+      Role found: sn_appclient.app_client_user
+    Total unique roles: 3
+    Fetching roles for user: 3282abf03710200044e0bfc8bcbe5d1e
+    Found 8 role assignments
+      Role found: personalize_decision_table_input
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: sn_diagram_builder.db_read
+      Role found: fd_read_operations
+      Role found: decision_table_admin
+      Role found: flow_operator
+      Role found: sla_admin
+    Total unique roles: 8
+    Fetching roles for user: 46b673a6a9fe19810007ab03cbd5849d
+    Found 1 role assignments
+      Role found: evam_admin
+    Total unique roles: 1
+    Fetching roles for user: 12826bf03710200044e0bfc8bcbe5dcc
+    Found 30 role assignments
+      Role found: platform_analytics_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+    Total unique roles: 30
+    Fetching roles for user: 2a826bf03710200044e0bfc8bcbe5dd5
+    Found 6 role assignments
+      Role found: agent_admin
+      Role found: credential_admin
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: connection_admin
+      Role found: notification_record_filter_admin
+    Total unique roles: 6
+    Fetching roles for user: 31826bf03710200044e0bfc8bcbe5d36
+    Found 2 role assignments
+      Role found: sn_publications_recipients_user
+      Role found: evam_admin
+    Total unique roles: 2
+    Fetching roles for user: 46bd0579a9fe198101404e3929a841f5
+    Found 33 role assignments
+      Role found: sn_templated_snip.template_snippet_admin
+      Role found: platform_analytics_admin
+      Role found: sn_templated_snip.template_snippet_reader
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: sn_templated_snip.template_snippet_writer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: pa_threshold_admin
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+    Total unique roles: 33
+    Fetching roles for user: 4a826bf03710200044e0bfc8bcbe5d55
+    Found 3 role assignments
+      Role found: now_experience_analytics_viewer
+      Role found: antivirus_admin
+      Role found: now_experience_analytics_admin
+    Total unique roles: 3
+    Fetching roles for user: 16826bf03710200044e0bfc8bcbe5dc5
+    Found 2 role assignments
+      Role found: evam_admin
+      Role found: sn_appclient.app_client_user
+    Total unique roles: 2
+    Fetching roles for user: 1e826bf03710200044e0bfc8bcbe5d9c
+    Found 4 role assignments
+      Role found: sn_ace.ace_user
+      Role found: clone_profile_admin
+      Role found: clone_admin
+      Role found: notification_record_filter_admin
+    Total unique roles: 4
+    Fetching roles for user: 2fc94d35eb32010045e1a5115206fe22
+    Found 17 role assignments
+      Role found: itom_admin
+      Role found: workflow_creator
+      Role found: password_reset_credential_manager
+      Role found: sn_diagram_builder.db_read
+      Role found: flow_operator
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: workflow_admin
+      Role found: password_reset_admin
+      Role found: fd_read_operations
+      Role found: ui_macro_admin
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: script_include_admin
+      Role found: evam_admin
+      Role found: workflow_publisher
+      Role found: password_reset_service_desk
+      Role found: sla_admin
+    Total unique roles: 17
+    Fetching roles for user: 49339c38530360100999ddeeff7b1242
+    Found 6 role assignments
+      Role found: chat_survey_admin
+      Role found: openapi_admin
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: assessment_admin
+      Role found: survey_admin
+      Role found: sn_publications_recipients_list_user
+    Total unique roles: 6
+    Fetching roles for user: 42826bf03710200044e0bfc8bcbe5d5a
+    Found 6 role assignments
+      Role found: pdb_user
+      Role found: sn_publications_recipients_list_user
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: assessment_admin
+      Role found: survey_admin
+      Role found: chat_survey_admin
+    Total unique roles: 6
+    Fetching roles for user: 3988a3ca732023002728660c4cf6a757
+    Found 56 role assignments
+      Role found: antivirus_admin
+      Role found: itil
+      Role found: sn_incident_read
+      Role found: cmdb_ms_editor
+      Role found: sn_change_read
+      Role found: sn_cmdb_editor
+      Role found: sn_problem_read
+      Role found: interaction_agent
+      Role found: canvas_user
+      Role found: sn_incident_write
+      Role found: email_client_template_read
+      Role found: app_service_user
+      Role found: cmdb_ms_admin
+      Role found: data_manager_admin
+      Role found: sn_nb_action.next_best_action_user
+      Role found: tracked_file_reader
+      Role found: iar_admin
+      Role found: sn_change_write
+      Role found: task_editor
+      Role found: dependency_views
+      Role found: sn_sow.sow_user
+      Role found: sn_sttrm_condition_read
+      Role found: sn_request_approver_read
+      Role found: sn_request_read
+      Role found: workspace_user
+      Role found: assessment_admin
+      Role found: cmdb_dedup_admin
+      Role found: sn_cmdb_admin
+      Role found: canvas_admin
+      Role found: template_editor
+      Role found: itil_admin
+      Role found: view_changer
+      Role found: cmdb_ms_user
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: sn_request_write
+      Role found: data_manager_user
+      Role found: ais_admin
+      Role found: search_application_admin
+      Role found: personalize_dictionary
+      Role found: email_composer
+      Role found: viz_creator
+      Role found: template_read_global
+      Role found: cmdb_read
+      Role found: sn_problem_write
+      Role found: evam_admin
+      Role found: search_relevancy_model_admin
+      Role found: sn_gd_guidance.guidance_user
+      Role found: snc_platform_rest_api_access
+      Role found: survey_reader
+      Role found: cmdb_query_builder_read
+      Role found: cmdb_query_builder
+      Role found: sn_cmdb_user
+      Role found: agent_workspace_user
+      Role found: certification
+      Role found: uxframework_user
+      Role found: cmdb_payload_admin
+    Total unique roles: 56
+    Fetching roles for user: 1a826bf03710200044e0bfc8bcbe5dbe
+    Found 2 role assignments
+      Role found: pdb_user
+      Role found: analytics_task_admin
+    Total unique roles: 2
+    Fetching roles for user: 3e82abf03710200044e0bfc8bcbe5d04
+    Found 7 role assignments
+      Role found: sla_admin
+      Role found: analytics_task_admin
+      Role found: sn_diagram_builder.db_read
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: flow_operator
+      Role found: fd_read_operations
+    Total unique roles: 7
+    Fetching roles for user: 4e826bf03710200044e0bfc8bcbe5d41
+    Found 5 role assignments
+      Role found: cmdb_ms_editor
+      Role found: notification_record_filter_admin
+      Role found: cmdb_ms_admin
+      Role found: cmdb_read
+      Role found: cmdb_ms_user
+    Total unique roles: 5
+    Fetching roles for user: 3e82abf03710200044e0bfc8bcbe5d36
+    Found 4 role assignments
+      Role found: clone_profile_admin
+      Role found: sn_ace.ace_user
+      Role found: sn_appclient.app_client_user
+      Role found: clone_admin
+    Total unique roles: 4
+    Fetching roles for user: 46826bf03710200044e0bfc8bcbe5d86
+    Found 4 role assignments
+      Role found: export_set_admin
+      Role found: openapi_admin
+      Role found: export_set_scheduler
+      Role found: personalize_dictionary
+    Total unique roles: 4
+    Fetching roles for user: 31826bf03710200044e0bfc8bcbe5d1a
+    Found 6 role assignments
+      Role found: service_admin
+      Role found: sn_appclient.app_client_user
+      Role found: service_author
+      Role found: service_editor
+      Role found: cmdb_read
+      Role found: service_viewer
+    Total unique roles: 6
+    Fetching roles for user: 2e826bf03710200044e0bfc8bcbe5dd7
+    Found 6 role assignments
+      Role found: sn_templated_snip.template_snippet_writer
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+      Role found: sn_templated_snip.template_snippet_admin
+      Role found: export_set_admin
+      Role found: sn_templated_snip.template_snippet_reader
+    Total unique roles: 6
+    Fetching roles for user: 46826bf03710200044e0bfc8bcbe5d5c
+    Found 4 role assignments
+      Role found: export_set_admin
+      Role found: evam_admin
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+    Total unique roles: 4
+    Fetching roles for user: 3682abf03710200044e0bfc8bcbe5d17
+    Found 2 role assignments
+      Role found: sn_appclient.app_client_user
+      Role found: pdb_user
+    Total unique roles: 2
+    Fetching roles for user: 12826bf03710200044e0bfc8bcbe5da8
+    Found 47 role assignments
+      Role found: view_changer
+      Role found: cmdb_ms_user
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: sn_request_write
+      Role found: data_manager_user
+      Role found: email_composer
+      Role found: viz_creator
+      Role found: template_editor
+      Role found: template_read_global
+      Role found: cmdb_read
+      Role found: sn_problem_write
+      Role found: clone_admin
+      Role found: itil
+      Role found: sn_gd_guidance.guidance_user
+      Role found: snc_platform_rest_api_access
+      Role found: survey_reader
+      Role found: cmdb_query_builder_read
+      Role found: cmdb_query_builder
+      Role found: sn_cmdb_user
+      Role found: agent_workspace_user
+      Role found: certification
+      Role found: uxframework_user
+      Role found: sn_cmdb_editor
+      Role found: sn_problem_read
+      Role found: user_admin
+      Role found: knowledge
+      Role found: interaction_agent
+      Role found: canvas_user
+      Role found: sn_incident_write
+      Role found: email_client_template_read
+      Role found: app_service_user
+      Role found: sn_incident_read
+      Role found: cmdb_ms_editor
+      Role found: sn_change_read
+      Role found: clone_profile_admin
+      Role found: sn_ace.ace_user
+      Role found: knowledge_manager
+      Role found: sn_change_write
+      Role found: task_editor
+      Role found: dependency_views
+      Role found: sn_sow.sow_user
+      Role found: sn_sttrm_condition_read
+      Role found: sn_request_approver_read
+      Role found: sn_request_read
+      Role found: workspace_user
+      Role found: sn_nb_action.next_best_action_user
+      Role found: tracked_file_reader
+    Total unique roles: 47
+    Fetching roles for user: 0802b90dc3313000bac1addbdfba8fdb
+    Found 46 role assignments
+      Role found: catalog_admin
+      Role found: import_transformer
+      Role found: platform_ml_create
+      Role found: catalog_builder_editor
+      Role found: sn_templated_snip.template_snippet_admin
+      Role found: ml_labeler
+      Role found: sn_templated_snip.template_snippet_writer
+      Role found: personalize_dictionary
+      Role found: sn_employee.admin
+      Role found: import_scheduler
+      Role found: assessment_admin
+      Role found: survey_admin
+      Role found: sn_publications_recipients_list_user
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: catalog_lookup_admin
+      Role found: ais_admin
+      Role found: sn_hr_sp.admin
+      Role found: nlu_editor
+      Role found: user_criteria_admin
+      Role found: nlu_admin
+      Role found: search_application_admin
+      Role found: sn_hr_sp.esc_admin
+      Role found: announcement_admin
+      Role found: taxonomy_admin
+      Role found: chat_survey_admin
+      Role found: image_admin
+      Role found: search_relevancy_model_admin
+      Role found: platform_ml_read
+      Role found: pa_data_collector
+      Role found: sn_templated_snip.template_snippet_reader
+      Role found: nlu_user
+      Role found: catalog
+      Role found: import_admin
+      Role found: admin
+      Role found: live_feed_admin
+      Role found: sp_admin
+      Role found: evam_admin
+      Role found: platform_ml_write
+      Role found: sn_nlu_workbench.nlu_feedback_admin
+      Role found: ml_admin
+      Role found: import_set_loader
+      Role found: catalog_template_editor
+      Role found: pa_viewer
+      Role found: chat_admin
+      Role found: sn_ace.ace_user
+    Total unique roles: 45
+    Fetching roles for user: 2a826bf03710200044e0bfc8bcbe5df0
+    Found 6 role assignments
+      Role found: connection_admin
+      Role found: agent_admin
+      Role found: credential_admin
+      Role found: agent_security_admin
+      Role found: user_admin
+      Role found: view_changer
+    Total unique roles: 6
+    Fetching roles for user: 3682abf03710200044e0bfc8bcbe5d20
+    Found 19 role assignments
+      Role found: cmdb_read
+      Role found: cmdb_payload_admin
+      Role found: cmdb_query_builder_read
+      Role found: sn_cmdb_user
+      Role found: data_manager_user
+      Role found: cmdb_ms_admin
+      Role found: canvas_user
+      Role found: dependency_views
+      Role found: task_editor
+      Role found: data_manager_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_cmdb_editor
+      Role found: canvas_admin
+      Role found: cmdb_dedup_admin
+      Role found: app_service_user
+      Role found: cmdb_query_builder
+      Role found: user_admin
+      Role found: sn_cmdb_admin
+    Total unique roles: 19
+    Fetching roles for user: 06826bf03710200044e0bfc8bcbe5d8a
+    Found 8 role assignments
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: agent_admin
+      Role found: clone_admin
+      Role found: connection_admin
+      Role found: clone_profile_admin
+      Role found: sn_ace.ace_user
+      Role found: credential_admin
+    Total unique roles: 8
+    Fetching roles for user: 46826bf03710200044e0bfc8bcbe5d8f
+    Found 2 role assignments
+      Role found: user_criteria_admin
+      Role found: openapi_admin
+    Total unique roles: 2
+    Fetching roles for user: 3a82abf03710200044e0bfc8bcbe5d02
+    Found 8 role assignments
+      Role found: export_set_admin
+      Role found: view_changer
+      Role found: agent_security_admin
+      Role found: agent_admin
+      Role found: credential_admin
+      Role found: connection_admin
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+    Total unique roles: 8
+    Fetching roles for user: 3e826bf03710200044e0bfc8bcbe5df2
+    Found 31 role assignments
+      Role found: chat_analytics_admin
+      Role found: par_scheduler
+      Role found: platform_analytics_admin
+      Role found: pa_threshold_admin
+      Role found: mobile_analytics_viewer
+      Role found: pa_power_user
+      Role found: pa_admin
+      Role found: pa_data_collector
+      Role found: analytics_admin
+      Role found: analytics_viewer
+      Role found: chat_analytics_viewer
+      Role found: core_ui_analytics_viewer
+      Role found: portal_analytics_viewer
+      Role found: sdk_analytics_viewer
+      Role found: pa_contributor
+      Role found: dashboard_admin
+      Role found: now_experience_analytics_viewer
+      Role found: pa_viewer
+      Role found: sn_pa_diagnostics.pa_diagnostic
+      Role found: web_analytics_admin
+      Role found: mobile_analytics_admin
+      Role found: core_ui_analytics_admin
+      Role found: analytics_filter_admin
+      Role found: pa_target_admin
+      Role found: viz_admin
+      Role found: portal_analytics_admin
+      Role found: now_experience_analytics_admin
+      Role found: pa_analyst
+      Role found: web_analytics_viewer
+      Role found: sdk_analytics_admin
+      Role found: analytics_task_admin
+    Total unique roles: 31
+    Fetching roles for user: 16826bf03710200044e0bfc8bcbe5daa
+    Found 5 role assignments
+      Role found: now_experience_analytics_admin
+      Role found: export_set_scheduler
+      Role found: export_set_admin
+      Role found: personalize_dictionary
+      Role found: now_experience_analytics_viewer
+    Total unique roles: 5
+    Fetching roles for user: 46c6f9efa9fe198101ddf5eed9adf6e7
+    Found 55 role assignments
+      Role found: view_changer
+      Role found: sn_cmdb_editor
+      Role found: sn_request_write
+      Role found: interaction_agent
+      Role found: email_composer
+      Role found: email_client_template_read
+      Role found: tracked_file_reader
+      Role found: sn_cmdb_user
+      Role found: sn_request_read
+      Role found: certification
+      Role found: sn_nb_action.next_best_action_user
+      Role found: sn_gd_guidance.guidance_user
+      Role found: task_editor
+      Role found: financial_mgmt_user
+      Role found: inventory_user
+      Role found: cmdb_query_builder
+      Role found: canvas_admin
+      Role found: sn_sttrm_condition_read
+      Role found: agent_workspace_user
+      Role found: workspace_user
+      Role found: uxframework_user
+      Role found: sn_change_read
+      Role found: itil
+      Role found: sn_change_write
+      Role found: survey_reader
+      Role found: sn_sow.sow_user
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_problem_read
+      Role found: data_manager_user
+      Role found: sn_incident_write
+      Role found: template_read_global
+      Role found: sn_incident_read
+      Role found: canvas_user
+      Role found: openapi_admin
+      Role found: cmdb_read
+      Role found: sn_cmdb_admin
+      Role found: snc_platform_rest_api_access
+      Role found: dependency_views
+      Role found: viz_creator
+      Role found: app_service_user
+      Role found: sn_problem_write
+      Role found: model_manager
+      Role found: catalog_editor
+      Role found: asset
+      Role found: cmdb_payload_admin
+      Role found: template_editor
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: sn_request_approver_read
+      Role found: cmdb_query_builder_read
+      Role found: category_manager
+      Role found: contract_manager
+      Role found: cmdb_dedup_admin
+      Role found: data_manager_admin
+      Role found: cmdb_ms_admin
+    Total unique roles: 55
+    Fetching roles for user: 3e82abf03710200044e0bfc8bcbe5d1b
+    Found 4 role assignments
+      Role found: clone_admin
+      Role found: openapi_admin
+      Role found: sn_ace.ace_user
+      Role found: clone_profile_admin
+    Total unique roles: 4
+    Fetching roles for user: 3682abf03710200044e0bfc8bcbe5d32
+    Found 2 role assignments
+      Role found: antivirus_admin
+      Role found: sn_appclient.app_client_user
+    Total unique roles: 2
+    Fetching roles for user: 3282abf03710200044e0bfc8bcbe5d30
+    Found 3 role assignments
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+      Role found: export_set_admin
+    Total unique roles: 3
+    Fetching roles for user: 26826bf03710200044e0bfc8bcbe5de5
+    Found 7 role assignments
+      Role found: now_experience_analytics_admin
+      Role found: cmdb_read
+      Role found: service_viewer
+      Role found: service_admin
+      Role found: service_author
+      Role found: service_editor
+      Role found: now_experience_analytics_viewer
+    Total unique roles: 7
+    Fetching roles for user: 06826bf03710200044e0bfc8bcbe5d57
+    Found 5 role assignments
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: personalize_decision_table_input
+      Role found: antivirus_admin
+      Role found: decision_table_admin
+    Total unique roles: 5
+    Fetching roles for user: 46b87022a9fe198101a78787e40d7547
+    Found 52 role assignments
+      Role found: data_manager_user
+      Role found: knowledge
+      Role found: uxframework_user
+      Role found: sn_change_read
+      Role found: cmdb_read
+      Role found: canvas_user
+      Role found: now_experience_analytics_admin
+      Role found: cmdb_ms_editor
+      Role found: cmdb_ms_user
+      Role found: sn_problem_read
+      Role found: sn_sttrm_condition_read
+      Role found: agent_workspace_user
+      Role found: workspace_user
+      Role found: viz_creator
+      Role found: app_service_user
+      Role found: sn_problem_write
+      Role found: snc_platform_rest_api_access
+      Role found: dependency_views
+      Role found: openapi_admin
+      Role found: model_manager
+      Role found: catalog_editor
+      Role found: now_experience_analytics_viewer
+      Role found: sn_request_approver_read
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: contract_manager
+      Role found: category_manager
+      Role found: asset
+      Role found: cmdb_query_builder_read
+      Role found: template_editor
+      Role found: tracked_file_reader
+      Role found: inventory_user
+      Role found: cmdb_query_builder
+      Role found: financial_mgmt_user
+      Role found: itil
+      Role found: sn_change_write
+      Role found: survey_reader
+      Role found: sn_sow.sow_user
+      Role found: sn_cmdb_user
+      Role found: sn_request_read
+      Role found: certification
+      Role found: sn_nb_action.next_best_action_user
+      Role found: sn_gd_guidance.guidance_user
+      Role found: task_editor
+      Role found: sn_incident_write
+      Role found: template_read_global
+      Role found: sn_incident_read
+      Role found: view_changer
+      Role found: sn_cmdb_editor
+      Role found: sn_request_write
+      Role found: interaction_agent
+      Role found: email_composer
+      Role found: email_client_template_read
+    Total unique roles: 52
+    Fetching roles for user: 42826bf03710200044e0bfc8bcbe5d72
+    Found 2 role assignments
+      Role found: antivirus_admin
+      Role found: sn_publications_recipients_user
+    Total unique roles: 2
+    Fetching roles for user: 155699460a0a0b2b009e27c10b7f68f6
+    Found 7 role assignments
+      Role found: export_set_admin
+      Role found: decision_table_admin
+      Role found: sn_udc.basic_read
+      Role found: personalize_decision_table_input
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: personalize_dictionary
+      Role found: export_set_scheduler
+    Total unique roles: 7
+    Fetching roles for user: 3682abf03710200044e0bfc8bcbe5d29
+    Found 3 role assignments
+      Role found: notification_record_filter_admin
+      Role found: sn_nowassist_admin.nsa_admin
+      Role found: sn_ace.ace_user
+    Total unique roles: 3
+    Fetching roles for user: 06f97342c37030009b5efcfc5bba8fc3
+    Found 47 role assignments
+      Role found: service_editor
+      Role found: service_viewer
+      Role found: sn_change_write
+      Role found: task_editor
+      Role found: viz_creator
+      Role found: sn_sow.sow_user
+      Role found: cmdb_query_builder_read
+      Role found: sn_problem_write
+      Role found: sn_request_read
+      Role found: sn_sttrm_condition_read
+      Role found: sn_bm_client.benchmark_data_viewer
+      Role found: sn_nb_action.next_best_action_user
+      Role found: workspace_user
+      Role found: service_author
+      Role found: antivirus_admin
+      Role found: template_editor
+      Role found: cmdb_read
+      Role found: sn_request_write
+      Role found: cmdb_ms_user
+      Role found: email_composer
+      Role found: data_manager_user
+      Role found: itil
+      Role found: template_read_global
+      Role found: snc_platform_rest_api_access
+      Role found: view_changer
+      Role found: cmdb_query_builder
+      Role found: survey_reader
+      Role found: app_service_user
+      Role found: sn_cmdb_user
+      Role found: sn_change_read
+      Role found: certification
+      Role found: agent_workspace_user
+      Role found: sn_gd_guidance.guidance_user
+      Role found: uxframework_user
+      Role found: service_admin
+      Role found: interaction_agent
+      Role found: sn_problem_read
+      Role found: sn_incident_write
+      Role found: email_client_template_read
+      Role found: canvas_user
+      Role found: tracked_file_reader
+      Role found: sn_incident_read
+      Role found: dependency_views
+      Role found: sn_cmdb_editor
+      Role found: cmdb_ms_editor
+      Role found: sn_request_approver_read
+    Total unique roles: 46
+    Fetching roles for user: 4a826bf03710200044e0bfc8bcbe5d5e
+    Found 5 role assignments
+      Role found: decision_table_admin
+      Role found: user_admin
+      Role found: sn_workflow_studio.workflow_studio_read
+      Role found: sn_udc.basic_read
+      Role found: personalize_decision_table_input
+    Total unique roles: 5
+    Fetching roles for user: 4e826bf03710200044e0bfc8bcbe5d78
+    Found 3 role assignments
+      Role found: sn_nowassist_admin.nsa_admin
+      Role found: sn_ace.ace_user
+      Role found: notification_record_filter_admin
+    Total unique roles: 3
