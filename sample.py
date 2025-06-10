@@ -8,8 +8,6 @@ from requests.auth import HTTPBasicAuth
 def setup_logging(document_key):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     log_filename = f"servicenow_audit_{document_key}_{timestamp}.log"
-    
-    # Configure logging to write to both file and console
     logging.basicConfig(
         level=logging.INFO,
         format='%(message)s',
@@ -166,56 +164,11 @@ class ServiceNowAuditAnalyzer:
             }
         return None
     
-    def test_role_fetching(self, test_user_id=None):
-        """Test role fetching for debugging"""
-        print("="*60)
-        print("TESTING ROLE FETCHING")
-        print("="*60)
-        
-        if not test_user_id:
-            # First, let's get a sample user from sys_user table
-            params = {'sysparm_limit': 5, 'sysparm_fields': 'sys_id,user_name,first_name,last_name'}
-            result = self.make_api_call('sys_user', params=params)
-            
-            if result and result.get('result'):
-                print("Sample users in system:")
-                for user in result['result']:
-                    print(f"  {user.get('sys_id')} - {user.get('user_name')} ({user.get('first_name')} {user.get('last_name')})")
-                
-                # Test with first user
-                test_user_id = result['result'][0]['sys_id']
-            else:
-                print("No users found in sys_user table")
-                return
-        
-        print(f"\nTesting role fetching for user: {test_user_id}")
-        roles = self.get_user_roles(test_user_id)
-        print(f"Final result: {roles}")
-        
-        # Also test sys_user_has_role table directly
-        print(f"\nDirect query to sys_user_has_role table:")
-        params = {
-            'sysparm_query': f'user={test_user_id}',
-            'sysparm_fields': 'sys_id,user,role,granted_by,state',
-            'sysparm_display_value': 'all'
-        }
-        result = self.make_api_call('sys_user_has_role', params=params)
-        
-        if result and result.get('result'):
-            print(f"Found {len(result['result'])} raw role assignments:")
-            for i, role_assignment in enumerate(result['result']):
-                print(f"  Assignment {i+1}:")
-                for key, value in role_assignment.items():
-                    print(f"    {key}: {value}")
-                print()
-        else:
-            print("No role assignments found in sys_user_has_role table")
-
     def analyze_ci_audit_records(self, document_key):
         """Main method to analyze CI audit records with user details and roles"""
-        print("="*80)
-        print("CI AUDIT ANALYSIS WITH USER ROLES")
-        print("="*80)
+        log_print("="*80)
+        log_print("CI AUDIT ANALYSIS WITH USER ROLES")
+        log_print("="*80)
         
         # Step 1: Get audit records
         audit_records = self.get_audit_records(document_key)
@@ -225,7 +178,7 @@ class ServiceNowAuditAnalyzer:
         # Step 2: Process each audit record
         user_activities = {}
         
-        print("\nProcessing audit records and fetching user details...\n")
+        log_print("\nProcessing audit records and fetching user details...\n")
         
         for i, record in enumerate(audit_records, 1):
             user_sys_id = record.get('user')
@@ -235,14 +188,14 @@ class ServiceNowAuditAnalyzer:
             
             # Get user details if not already cached
             if user_sys_id not in user_activities:
-                print(f"Processing user {i}/{len(audit_records)}: {user_sys_id}")
+                log_print(f"Processing user {i}/{len(audit_records)}: {user_sys_id}")
                 
                 user_details = self.get_user_details(user_sys_id)
                 if not user_details:
-                    print(f"  ❌ Could not get user details for {user_sys_id}")
+                    log_print(f"  ❌ Could not get user details for {user_sys_id}")
                     continue
                 
-                print(f"  ✅ User: {user_details['full_name']} ({user_details['user_name']})")
+                log_print(f"  ✅ User: {user_details['full_name']} ({user_details['user_name']})")
                 user_roles = self.get_user_roles(user_sys_id)
                 
                 user_activities[user_sys_id] = {
@@ -262,9 +215,9 @@ class ServiceNowAuditAnalyzer:
             user_activities[user_sys_id]['changes'].append(change_info)
         
         # Step 3: Display results
-        print("\n" + "="*80)
-        print("USER ACTIVITIES SUMMARY")
-        print("="*80)
+        log_print("\n" + "="*80)
+        log_print("USER ACTIVITIES SUMMARY")
+        log_print("="*80)
         
         # Sort users by number of changes (most active first)
         sorted_users = sorted(user_activities.items(), 
@@ -274,25 +227,25 @@ class ServiceNowAuditAnalyzer:
         total_users = len(sorted_users)
         total_changes = sum(len(user_data['changes']) for _, user_data in sorted_users)
         
-        print(f"📊 Total Users: {total_users}")
-        print(f"📊 Total Changes: {total_changes}")
-        print(f"📊 CI: {document_key}")
+        log_print(f"📊 Total Users: {total_users}")
+        log_print(f"📊 Total Changes: {total_changes}")
+        log_print(f"📊 CI: {document_key}")
         
-        print("\n" + "="*80)
-        print("DETAILED USER ACTIVITY")
-        print("="*80)
+        log_print("\n" + "="*80)
+        log_print("DETAILED USER ACTIVITY")
+        log_print("="*80)
         
         for user_sys_id, user_data in sorted_users:
             user_details = user_data['user_details']
             roles = user_data['roles']
             changes = user_data['changes']
             
-            print(f"\n👤 Name: {user_details['full_name']}")
-            print(f"   Username: {user_details['user_name']}")
-            print(f"   Email: {user_details['email']}")
-            print(f"   Roles: {', '.join(roles) if roles else 'No roles assigned'}")
-            print(f"   Total Changes: {len(changes)}")
-            print(f"   Changes Made:")
+            log_print(f"\n👤 Name: {user_details['full_name']}")
+            log_print(f"   Username: {user_details['user_name']}")
+            log_print(f"   Email: {user_details['email']}")
+            log_print(f"   Roles: {', '.join(roles) if roles else 'No roles assigned'}")
+            log_print(f"   Total Changes: {len(changes)}")
+            log_print(f"   Changes Made:")
             
             # Group changes by field for better readability
             changes_by_field = {}
@@ -303,18 +256,18 @@ class ServiceNowAuditAnalyzer:
                 changes_by_field[field].append(change)
             
             for field, field_changes in changes_by_field.items():
-                print(f"      📝 {field}:")
+                log_print(f"      📝 {field}:")
                 for change in field_changes:
                     old_val = change['old_value'] or '[empty]'
                     new_val = change['new_value'] or '[empty]'
-                    print(f"         • Changed from '{old_val}' to '{new_val}' on {change['created']}")
+                    log_print(f"         • Changed from '{old_val}' to '{new_val}' on {change['created']}")
             
-            print(f"   {'-'*60}")
+            log_print(f"   {'-'*60}")
         
         # Step 4: Summary statistics
-        print(f"\n" + "="*80)
-        print("OWNERSHIP ANALYSIS")
-        print("="*80)
+        log_print(f"\n" + "="*80)
+        log_print("OWNERSHIP ANALYSIS")
+        log_print("="*80)
         
         # Analyze ownership indicators
         ownership_candidates = []
@@ -357,13 +310,13 @@ class ServiceNowAuditAnalyzer:
         # Sort by ownership score
         ownership_candidates.sort(key=lambda x: x['ownership_score'], reverse=True)
         
-        print(f"🏆 TOP OWNERSHIP CANDIDATES:")
+        log_print(f"🏆 TOP OWNERSHIP CANDIDATES:")
         for i, candidate in enumerate(ownership_candidates[:5], 1):
-            print(f"   {i}. {candidate['name']} ({candidate['username']})")
-            print(f"      Roles: {', '.join(candidate['roles']) if candidate['roles'] else 'No roles'}")
-            print(f"      Activity: {candidate['total_changes']} changes, {candidate['unique_fields']} fields, {candidate['critical_changes']} critical")
-            print(f"      Ownership Score: {candidate['ownership_score']}")
-            print()
+            log_print(f"   {i}. {candidate['name']} ({candidate['username']})")
+            log_print(f"      Roles: {', '.join(candidate['roles']) if candidate['roles'] else 'No roles'}")
+            log_print(f"      Activity: {candidate['total_changes']} changes, {candidate['unique_fields']} fields, {candidate['critical_changes']} critical")
+            log_print(f"      Ownership Score: {candidate['ownership_score']}")
+            log_print("")
         
         return {
             'user_activities': user_activities,
@@ -394,27 +347,23 @@ if __name__ == "__main__":
     log_print(f"Logging output to: {log_filename}")
     
     try:
-        # First, test role fetching to debug the issue
-        log_print("🔍 Testing role fetching functionality...")
-        analyzer.test_role_fetching()
-        
-        # Then analyze CI audit records
-        print("\n" + "="*80)
-        print("STARTING MAIN ANALYSIS")
-        print("="*80)
+        # Analyze CI audit records
+        log_print("\n" + "="*80)
+        log_print("STARTING MAIN ANALYSIS")
+        log_print("="*80)
         
         results = analyzer.analyze_ci_audit_records(DOCUMENT_KEY)
         
         if results:
-            print("\n" + "="*80)
-            print("ANALYSIS COMPLETED SUCCESSFULLY!")
-            print("="*80)
-            print(f"✅ Processed {results['summary']['total_users']} users")
-            print(f"✅ Analyzed {results['summary']['total_changes']} audit records")
-            print("✅ Identified top ownership candidates")
+            log_print("\n" + "="*80)
+            log_print("ANALYSIS COMPLETED SUCCESSFULLY!")
+            log_print("="*80)
+            log_print(f"✅ Processed {results['summary']['total_users']} users")
+            log_print(f"✅ Analyzed {results['summary']['total_changes']} audit records")
+            log_print("✅ Identified top ownership candidates")
         else:
-            print("❌ Failed to analyze audit records")
+            log_print("❌ Failed to analyze audit records")
     
     except Exception as e:
-        print(f"❌ Error: {e}")
-        print("Please verify your ServiceNow credentials and instance URL.")
+        log_print(f"❌ Error: {e}")
+        log_print("Please verify your ServiceNow credentials and instance URL.")
